@@ -54,13 +54,28 @@ public class StartGameText {
 	
 	public static void selecionaDecisao(NodeList noLs){
 		
+		Node nodeQuestTmp1 = null;
+		Node nodeQuestTmp2 = null;
+		int countQuest = 1;
+		
 		for(int i = 0; i < noLs.getLength(); i++){
-			if( i%2 != 0 ){
-				if(i < 3){
+			if(noLs.item(i).hasChildNodes()){
+				if(noLs.item(i).getNodeName().equals("pergunta")){
+					System.out.println("--------------------------------------------------------\n");	
 					System.out.println(noLs.item(i).getTextContent());
 					System.out.println("--------------------------------------------------------");	
-				}else{
-					System.out.println(noLs.item(i).getChildNodes().item(1).getTextContent());
+				}else if (noLs.item(i).getNodeName().equals("questao")){
+					if(countQuest == 1){
+						nodeQuestTmp1 = noLs.item(i).getChildNodes().item(3);
+						System.out.println(noLs.item(i).getChildNodes().item(1).getTextContent());
+					}else{
+						nodeQuestTmp2 = noLs.item(i).getChildNodes().item(3);
+						System.out.println(noLs.item(i).getChildNodes().item(1).getTextContent());
+					}
+					countQuest++;
+				}else if (noLs.item(i).getNodeName().equals("game_over")){
+					System.out.println("GAMEOVR");
+					System.exit(0);
 				}
 			}
 		}
@@ -72,11 +87,12 @@ public class StartGameText {
 		
 		switch(num){
 			case 1 : {
-				newNodeList = noLs.item(3).getChildNodes().item(3).getChildNodes();
-				
+				newNodeList = nodeQuestTmp1.getChildNodes();
+				break;
 			}
 			case 2 : {
-				newNodeList = noLs.item(5).getChildNodes().item(3).getChildNodes();
+				newNodeList = nodeQuestTmp2.getChildNodes();
+				break;
 			}
 		}
 		
