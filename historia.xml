@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<capitulo>
+	<titulo>- CAPITULO I - FUGINDO DO IMPÉRIO TEMPORAL -</titulo>
+	<historia>Em um período caótico a terra se encontrava travando uma grande guerra tecnológica. O ditador do Império Temporal Vermelho tinha o monopólio do controle do TEMPO, por conta disso, ele dominava todas as épocas passadas. Um grupo de resistência formado por cientistas do antigo projeto da máquina do tempo, resolve se reunir secretamente para construir uma nova máquina, a fim de levá-los até o dia do nascimento do ditador e matá-lo, derrubando  o Império Temporal Vermelho.</historia>
+	<decisao>
+		<pergunta>O plano secreto foi descoberto e todos os cientistas foram capturados e condenados a execução, exceto VOCÊ um corajoso cientista que ousou entrar na máquina do tempo ainda não construída, pois era a última esperança da humanidade. No meio da viagem temporal a máquina sofre uma grave pane, levando-o a uma era pré-histórica, com dinossauros tecnológicos subjugados pelo iTV (imperio temporal vermelho) da época, sua missão é encontrar a máquina do tempo dessa atualidade a fim de viajar no futuro e destruir todo o império.
+		</pergunta>
+    	<questao id="1">
+			<info>1) Você deseja seguir em direção ao pântano pois é silencioso e acredita que ninguém poderá encontrá-lo.</info>
+			<decisao>
+				<pergunta>Você vai ao pantâno, mas não conhece muito bem nada, pois acabou de chegar em um mundo desconhecido. Não percebe um lago de lama logo a frente e acaba afundando. Você está prestes a afundar até que tem uma grande ideia...</pergunta>	
+				<questao id="1">
+					<info>1) Resolve chamar por socorro, pois sabe que o iTV pode escutá-lo e afinal, eles não são tão ruins assim. Passar a vida atrás das grades é melhor que morrer de uma maneira horrível.</info>
+					<decisao>
+						<pergunta>Acho que algo lhe escutou, mas não é nenhum soldado do iTV. É um terrível dinossauro com garras e dentes afiados grunindo de forma asquerosa para você. O mesmo se encontrava com restos metálicos em sua cabeça.</pergunta>
+					</decisao>
+				</questao>
+				<questao id="2">
+					<info>2) Percebe um tronco próximo e resolve se esforçar um pouco para pegá-lo. Você não está muito confiante, pois não sabe se o tronco é forte o suficiente, mas é sua última esperança.</info>
+					<decisao>
+						<pergunta>Bem... na verdade não era um tronco, mas o rabo de um dinossauro adormecido. Você se esforça para sair do atoleiro, puxando com cuidado a fim de não acordar a terrível criatura.</pergunta>
+					</decisao>
+				</questao>
+			</decisao>	
+		</questao>
+		<questao id="2">		
+			<info>2) Você está com medo e um pouco angustiado pela captura dos seus amigos, prefere ficar onde está.</info>
+			<decisao>
+				<pergunta>Você mergulha em um sono profundo, pois parece que o lugar que se encontra solta um gás radioativo da sonolência. Ao acordar se depara com um dinossauro cheirando seu rosto, ele estava com uma parte robótica quebrada em sua cabeça.</pergunta>
+				<questao id="1">
+					<info>1) Você se assusta terrivelmente com aquela coisa asquerosa em cima de você, resolve se levantar devagar e pegar a pedra mais próxima para matá-lo, com todas suas forças você atira nele e o acerta em cheio.</info>
+					<decisao>
+						<pergunta>Você o matou. É um assassino da pior espécie, pois o mesmo só estava querendo se comunicar e dizer que estava livre da manipulação cerebral do iTV, mas estava com uma forte dor de cabeça e pedindo ajuda. Agora você não tem como se locomover e morreu com a grande quantidade de gás tóxico no pulmão. GAME OVER.</pergunta>
+					</decisao>
+				</questao>
+				<questao id="2">
+					<info>2) Você se assusta mas ao mesmo tempo acha que pode domar o animal, que começa a rosnar de uma maneira não muito confiável. Você não sabe ao certo o que ele está querendo dizer, mas você espera o que pode acontecer.</info>
+					<decisao>
+						<pergunta>Você o deixou viver. Ele agora é seu amigo pessoal e quer apenas que o ajude a retirar os restos metálicos da parafernalha cerebral.</pergunta>
+					</decisao>
+				</questao>
+			</decisao>	
+		</questao>
+	</decisao>
+
+</capitulo>
